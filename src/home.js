@@ -1,7 +1,9 @@
 import React from "react";
 
+let balance = 0
+
 const addTen = () => {
-    
+    balance
 }
 const reduceTen = () => {
 
