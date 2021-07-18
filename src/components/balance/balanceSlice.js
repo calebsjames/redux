@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 export const balanceSlice = createSlice({
-    name: 'balance'
+    name: 'balance',
     initialState: {
         value: 0
     },
@@ -19,6 +19,6 @@ export const balanceSlice = createSlice({
     }
 })
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions
+export const { increment, decrement, incrementByAmount } = balanceSlice.actions
 
-export default counterSlice.reducer
+export default balanceSlice.reducer
